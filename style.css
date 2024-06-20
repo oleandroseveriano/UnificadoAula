@@ -57,3 +57,17 @@
 .conteudo, .conteudo-2{
     font-family: "Urbanist", sans-serif;
 }
+
+.table{
+    width: 60%;
+    }
+
+.table th, tr, td{
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+               
+}
+
+
+    
