@@ -18,8 +18,25 @@
         </ul>
     </div>
 </header>
-<body>
-    <h1>Formulario</h1>
+<body class="conteudo">
+    <h1 >Formulario de Contato</h1>
+    <h4> Motivo do contato:</h4>
+    <form>
+    <span> Network
+    <input type="checkbox" name="reason" value="Network"/>
+    Contratar Servicos <input type="checkbox" name="reason" value="Contratar Servicos"/>
+</span><br>
+<label for="nome"> Nome</label>
+    <input type="text" id="nome" name="nome" required><br>
+    <label for="email"> Seu Email</label> 
+    <input type="email" id="email" name="email" required><br>
+    Onde me encontrou?<select id="find" name="encontrou">
+        <option value="Linkedin">Linkedin</option>
+        <option value="Github">Github</option>
+        <option value="Coderhouse">CoderHouse</option>
+    </select>
+    <input type="submit" value="Enviar">
+     </form>
     
 </body>
 </html>
