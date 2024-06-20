@@ -20,6 +20,7 @@
     font-size: 20px;
     cursor: pointer; 
     text-decoration: none;
+    font-family: "Urbanist", sans-serif;
  
     
 }
@@ -52,4 +53,7 @@
 .body-content{
     display: flex;
     align-items: center;
+}
+.conteudo, .conteudo-2{
+    font-family: "Urbanist", sans-serif;
 }
