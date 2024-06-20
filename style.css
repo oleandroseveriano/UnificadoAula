@@ -1,0 +1,55 @@
+.header{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    }
+.menu li,a{
+    color: white;
+    margin: 8px;
+    font-size: 20px;
+    cursor: pointer; 
+    text-decoration: none;
+ 
+    
+}
+.menu li:hover, a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.rodape{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-top: 60%;
+    margin-right: 0;
+    display: flex;
+         
+}
+.rodape-contentmenu{
+    display: flex;
+    padding: 25px;
+    border-left: 2px solid white;
+
+    
+}
+.rodape-contentmenu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.body-content{
+    display: flex;
+    align-items: center;
+}
